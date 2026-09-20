@@ -1,0 +1,6 @@
+{
+  "name": "MM26AI02 - Keep the Cluster Alive",
+  "description": "Modelling Minds 2.0 autonomous agent for distributed fault tolerance, real-time failure detection, cold-restart-aware task rerouting, and adaptive recovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

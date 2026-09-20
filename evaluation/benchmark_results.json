@@ -1,0 +1,137 @@
+[
+  {
+    "config": "Sandbox Default (Seed 42)",
+    "baseline": {
+      "completed_count": 678,
+      "failed_count": 67,
+      "reroute_count": 0,
+      "total_tasks": 762,
+      "total_reward": 611.0,
+      "completion_rate": 91.0,
+      "agent_name": "RoundRobinNoHealthCheck",
+      "avg_step_ms": 0.001,
+      "max_step_ms": 0.003,
+      "total_wall_sec": 0.019
+    },
+    "agent": {
+      "completed_count": 732,
+      "failed_count": 19,
+      "reroute_count": 40,
+      "total_tasks": 758,
+      "total_reward": 711.0,
+      "completion_rate": 97.5,
+      "agent_name": "ClusterGuardianAgent",
+      "avg_step_ms": 0.034,
+      "max_step_ms": 0.152,
+      "total_wall_sec": 0.033
+    }
+  },
+  {
+    "config": "Sandbox Default (Seed 100)",
+    "baseline": {
+      "completed_count": 744,
+      "failed_count": 60,
+      "reroute_count": 0,
+      "total_tasks": 814,
+      "total_reward": 684.0,
+      "completion_rate": 92.5,
+      "agent_name": "RoundRobinNoHealthCheck",
+      "avg_step_ms": 0.001,
+      "max_step_ms": 0.009,
+      "total_wall_sec": 0.018
+    },
+    "agent": {
+      "completed_count": 791,
+      "failed_count": 4,
+      "reroute_count": 15,
+      "total_tasks": 808,
+      "total_reward": 786.25,
+      "completion_rate": 99.5,
+      "agent_name": "ClusterGuardianAgent",
+      "avg_step_ms": 0.032,
+      "max_step_ms": 0.056,
+      "total_wall_sec": 0.03
+    }
+  },
+  {
+    "config": "High Workload (Arrival 3.2)",
+    "baseline": {
+      "completed_count": 1183,
+      "failed_count": 46,
+      "reroute_count": 0,
+      "total_tasks": 1247,
+      "total_reward": 1137.0,
+      "completion_rate": 96.3,
+      "agent_name": "RoundRobinNoHealthCheck",
+      "avg_step_ms": 0.002,
+      "max_step_ms": 0.007,
+      "total_wall_sec": 0.022
+    },
+    "agent": {
+      "completed_count": 1224,
+      "failed_count": 23,
+      "reroute_count": 93,
+      "total_tasks": 1265,
+      "total_reward": 1196.35,
+      "completion_rate": 98.2,
+      "agent_name": "ClusterGuardianAgent",
+      "avg_step_ms": 0.049,
+      "max_step_ms": 0.167,
+      "total_wall_sec": 0.042
+    }
+  },
+  {
+    "config": "Large Cluster (10 Nodes, Cap 6)",
+    "baseline": {
+      "completed_count": 1465,
+      "failed_count": 138,
+      "reroute_count": 0,
+      "total_tasks": 1621,
+      "total_reward": 1327.0,
+      "completion_rate": 91.4,
+      "agent_name": "RoundRobinNoHealthCheck",
+      "avg_step_ms": 0.002,
+      "max_step_ms": 0.004,
+      "total_wall_sec": 0.03
+    },
+    "agent": {
+      "completed_count": 1628,
+      "failed_count": 1,
+      "reroute_count": 19,
+      "total_tasks": 1641,
+      "total_reward": 1626.05,
+      "completion_rate": 99.9,
+      "agent_name": "ClusterGuardianAgent",
+      "avg_step_ms": 0.054,
+      "max_step_ms": 0.155,
+      "total_wall_sec": 0.051
+    }
+  },
+  {
+    "config": "Constrained Cluster (4 Nodes, Cap 3)",
+    "baseline": {
+      "completed_count": 661,
+      "failed_count": 70,
+      "reroute_count": 0,
+      "total_tasks": 740,
+      "total_reward": 591.0,
+      "completion_rate": 90.4,
+      "agent_name": "RoundRobinNoHealthCheck",
+      "avg_step_ms": 0.002,
+      "max_step_ms": 0.005,
+      "total_wall_sec": 0.015
+    },
+    "agent": {
+      "completed_count": 670,
+      "failed_count": 56,
+      "reroute_count": 7,
+      "total_tasks": 736,
+      "total_reward": 613.65,
+      "completion_rate": 92.3,
+      "agent_name": "ClusterGuardianAgent",
+      "avg_step_ms": 0.034,
+      "max_step_ms": 0.09,
+      "total_wall_sec": 0.029
+    }
+  }
+]
